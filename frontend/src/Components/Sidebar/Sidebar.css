@@ -1,0 +1,71 @@
+.sidebar {
+  flex: 1;
+  border-right: 0.5px solid rgb(240, 232, 232);
+  min-height: 100vh;
+  background-color: white;
+}
+.sidebar .top {
+  height: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sidebar .top .logo {
+  font-size: 25px;
+  font-weight: 500;
+  color: #610c63;
+}
+.sidebar .center {
+  padding-left: 10px;
+}
+.sidebar .center ul {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar .center ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  cursor: pointer;
+}
+.sidebar .center ul li span {
+  font-size: 12px;
+  margin-left: 10px;
+}
+.sidebar .center ul .title {
+  font-size: 10px;
+  color: #999;
+  text-transform: uppercase;
+}
+.sidebar .center ul li:hover {
+  background-color: rgb(235, 222, 222);
+}
+.sidebar .bottom {
+  display: flex;
+  align-items: center;
+}
+.sidebar .bottom .colorPicker {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  border: 1px solid #999;
+  cursor: pointer;
+  margin: 15px 5px 15px 15px;
+}
+.sidebar .bottom .colorPicker:nth-child(1) {
+  background-color: white;
+}
+.sidebar .bottom .colorPicker:nth-child(2) {
+  background-color: black;
+}
+@media only screen and (max-width: 600px) {
+  .sidebar {
+    height: auto;
+    margin: 5px;
+  }
+  .sidebar .top .logo {
+    font-size: 18px;
+  }
+}

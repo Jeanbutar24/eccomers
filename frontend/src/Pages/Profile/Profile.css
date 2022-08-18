@@ -1,0 +1,47 @@
+.containerProfile {
+  display: flex;
+  min-height: 100vh;
+}
+.containerProfile .left {
+  flex: 1;
+  height: 100%;
+}
+.left .sideBar {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.containerProfile .left .sideBar .list {
+  list-style: none;
+  justify-content: space-evenly;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.containerProfile .left .sideBar .list h1 {
+  margin-bottom: 20px;
+}
+
+.containerProfile .left .sideBar .list .listItem {
+  font-size: 17px;
+  font-weight: 400;
+  padding: 10px;
+  cursor: pointer;
+}
+.containerProfile .left .sideBar .ends {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+  justify-content: space-evenly;
+}
+.containerProfile .left .sideBar .ends .endItem {
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.containerProfile .right {
+  flex: 5;
+}

@@ -1,0 +1,21 @@
+{
+  "name": "eccomers",
+  "version": "1.0.0",
+  "description": "My Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd backend && npm install && cd ../frontend && npm install && npm run build",
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeanbutar24/Monja-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jeanbutar24/Monja-website/issues"
+  },
+  "homepage": "https://github.com/Jeanbutar24/Monja-website#readme"
+}

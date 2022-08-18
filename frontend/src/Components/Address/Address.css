@@ -1,0 +1,48 @@
+.address {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+}
+.address .containerAddres {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 60vw;
+  justify-content: center;
+}
+.address .containerAddres .title {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+.address .containerAddres form {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.address .containerAddres form .addressInput {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.address .containerAddres form .addressInput label {
+  text-transform: uppercase;
+}
+.address .containerAddres form .addressInput input {
+  outline: none;
+  padding: 12px;
+  border: 1px solid teal;
+  border-radius: 10px;
+}
+.address .containerAddres form .buttonAddress {
+  background-color: transparent;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 12px;
+  border: 1px solid teal;
+  border-radius: 10px;
+  margin-top: 5px;
+  text-transform: uppercase;
+  margin: 20px 10px 0 10px;
+}

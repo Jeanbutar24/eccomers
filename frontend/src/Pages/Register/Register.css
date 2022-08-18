@@ -1,0 +1,97 @@
+.containerRegister {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.containerRegister .wrapper {
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.username,
+.email,
+.password {
+  padding: 10px;
+  border: 1px solid teal;
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.username input {
+  font-size: 20px;
+  border: none;
+  padding: 5px;
+  outline: none;
+}
+
+.password input {
+  font-size: 20px;
+  border: none;
+  padding: 5px;
+  outline: none;
+}
+.email input {
+  font-size: 20px;
+  border: none;
+  padding: 5px;
+  outline: none;
+}
+
+.containerRegister .wrapper button {
+  font-size: 25px;
+  padding: 10px;
+  margin: 20px 10px 0 10px;
+  width: 60%;
+  background-color: transparent;
+  border: 1px solid teal;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+
+.link {
+  font-size: 12px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 600px) {
+  .username,
+  .password {
+    padding: 5px;
+    border: 1px solid teal;
+    border-radius: 10px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+  }
+  .username input,
+  .password input {
+    font-size: 14px;
+    border: none;
+    padding: 3px;
+    outline: none;
+  }
+  .button {
+    font-size: 15px;
+    padding: 5px;
+    margin: 10px 10px 0 10px;
+    background-color: transparent;
+    border: 1px solid teal;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .link {
+    font-size: 8px;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}
+@media only screen and (max-width: 425px) {
+}

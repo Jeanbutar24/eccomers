@@ -1,0 +1,20 @@
+.containerProducts {
+  flex: 1;
+  margin: 5px;
+  min-width: 280px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.containerProducts img {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 50%;
+}
+.containerProducts .title {
+  cursor: pointer;
+  color: black;
+}

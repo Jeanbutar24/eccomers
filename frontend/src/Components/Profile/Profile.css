@@ -1,0 +1,64 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.profile .top {
+  padding: 15px;
+  margin-top: 10px;
+}
+
+.profile .bottom {
+  display: flex;
+}
+.profile .bottom .left {
+  flex: 3;
+  height: 100%;
+}
+.profile .bottom .left .profileForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+.bottom .left .profileForm .profileInput {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  width: 600px;
+}
+.bottom .left .profileForm .profileInput .input {
+  padding: 10px;
+  border: 1px solid #610c63;
+  border-radius: 10px;
+  outline: none;
+}
+
+.bottom .left .profileForm .buttonProfile {
+  margin-top: 5px;
+  cursor: pointer;
+  padding: 10px;
+  width: 50%;
+  font-weight: 400;
+  text-transform: uppercase;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid teal;
+}
+.profile .bottom .right {
+  flex: 1;
+}
+label {
+  font-size: 16px;
+  padding: 5px;
+}
+@media only screen and (max-width: 600px) {
+  .profile {
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .profile {
+    height: 100%;
+  }
+}

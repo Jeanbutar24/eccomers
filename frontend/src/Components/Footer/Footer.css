@@ -1,0 +1,73 @@
+.containerFooter {
+  display: flex;
+  background-color: #fff9d7;
+}
+.containerFooter .left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.containerFooter .left .desc {
+  margin: 20px 0;
+}
+
+.containerFooter .left .socialContainer {
+  display: flex;
+}
+.containerFooter .left .socialContainer .socialIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.containerFooter .center {
+  flex: 1;
+  padding: 20px;
+}
+
+.containerFooter .center .title {
+  margin-bottom: 30px;
+}
+.containerFooter .center .list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.containerFooter .center .list .listItem {
+  width: 50%;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.containerFooter .right {
+  flex: 1;
+  padding: 20px;
+}
+
+.containerFooter .right .title {
+  margin-bottom: 30px;
+}
+.containerFooter .right .contactItem {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 380px) {
+  .containerFooter {
+    flex-direction: column;
+  }
+  .containerFooter .center {
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .containerFooter {
+    flex-direction: column;
+  }
+  .containerFooter .center {
+    display: none;
+  }
+}

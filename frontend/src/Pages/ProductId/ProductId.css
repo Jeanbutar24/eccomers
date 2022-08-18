@@ -1,0 +1,114 @@
+.containerProductId .wrapper {
+  padding: 50px;
+  display: flex;
+  background-color: #fcf1ed;
+}
+.wrapper .imageContainer {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.wrapper .imageContainer img {
+  width: 100%;
+  height: 60vh;
+  object-fit: contain;
+}
+.wrapper .infoContainer {
+  flex: 1;
+  padding: 0px 50px;
+}
+
+.wrapper .infoContainer .title {
+  font-weight: 200;
+}
+.infoContainer .desc {
+  margin: 20px 0;
+}
+
+.infoContainer .price {
+  font-weight: 100;
+  font-size: 40px;
+}
+.infoContainer .filterContainer {
+  width: 50%;
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.filterContainer .filter {
+  display: flex;
+  align-items: center;
+}
+.filterContainer .filter .filterTitle {
+  font-size: 20px;
+  font-weight: 200;
+}
+.filterContainer .filter .filterColor {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 0px 5px;
+  cursor: pointer;
+}
+.filterContainer .filter select {
+  margin-left: 10px;
+  padding: 5px;
+}
+.wrapper .addContainer {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapper .addContainer .amount {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid teal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 5px;
+}
+
+.wrapper .addContainer .amountContainer {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+.wrapper .addContainer .amountContainer img {
+  cursor: pointer;
+}
+.wrapper .addContainer button {
+  padding: 15px;
+  border: 2px solid teal;
+  background-color: white;
+  cursor: pointer;
+  font-weight: 500;
+}
+@media only screen and (max-width: 600px) {
+  .containerProductId .wrapper {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  .wrapper .imageContainer {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  .infoContainer .price {
+    font-weight: 100;
+    font-size: 20px;
+  }
+  .wrapper .addContainer button {
+    padding: 15px;
+    border: 2px solid teal;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 500;
+    width: 100%;
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6a567e76.css",
+    "main.js": "/static/js/main.71715b0a.js",
+    "static/media/instagram.png": "/static/media/instagram.2d9da825457fba3a7c80.png",
+    "static/media/facebook.png": "/static/media/facebook.0ba6061e0224881aec5e.png",
+    "static/media/account-circle.png": "/static/media/account-circle.32e46b8b50da2a1f15ce.png",
+    "static/media/call.png": "/static/media/call.cc1a8364dbb0ab82eb22.png",
+    "static/media/twitter.png": "/static/media/twitter.c5f183c0730c89fa4eb8.png",
+    "static/media/settings.png": "/static/media/settings.4834d5c02af506a77b5e.png",
+    "static/media/add-card.png": "/static/media/add-card.12f83dc87b80a949746c.png",
+    "static/media/cart.png": "/static/media/cart.e535c4bb15f4cebcf763.png",
+    "static/media/padlock.png": "/static/media/padlock.7dc83aec2b133dc76796.png",
+    "static/media/email.png": "/static/media/email.4e855506c899665d9780.png",
+    "index.html": "/index.html",
+    "main.6a567e76.css.map": "/static/css/main.6a567e76.css.map",
+    "main.71715b0a.js.map": "/static/js/main.71715b0a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a567e76.css",
+    "static/js/main.71715b0a.js"
+  ]
+}
