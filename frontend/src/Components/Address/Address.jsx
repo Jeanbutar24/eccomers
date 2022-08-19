@@ -9,11 +9,10 @@ const Address = () => {
   const [kabupaten, setKabupaten] = useState("");
   const [provinsi, setProvinsi] = useState("");
   const [negara, setNegara] = useState("");
-  // const [address, setAddress] = useState([]);
+  const [address, setAddress] = useState([]);
   const user = useSelector((state) => state.user.currentUser);
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(jalan, kelurahan, kecamatan, kabupaten, negara);
 
     const postAddress = async () => {
       try {
@@ -30,7 +29,7 @@ const Address = () => {
             },
           ],
         });
-        console.log(response.data);
+        setAddress(response.data);
       } catch (error) {}
     };
     postAddress();
@@ -91,6 +90,9 @@ const Address = () => {
           </div>
           <button className="buttonAddress">Submit</button>
         </form>
+      </div>
+      <div className="addressUser">
+        <p>{address}</p>
       </div>
     </div>
   );
