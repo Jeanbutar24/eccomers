@@ -92,7 +92,9 @@ const Address = () => {
         </form>
       </div>
       <div className="addressUser">
-        <p>{address}</p>
+       {address.map((item, index))=>(
+        <p>{item.jalan}</p>
+       )}
       </div>
     </div>
   );
